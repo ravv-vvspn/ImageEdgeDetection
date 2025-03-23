@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top2_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4158333fs"></ZoomStartTime>
+      <ZoomEndTime time="66008334fs"></ZoomEndTime>
+      <Cursor1Time time="55700000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="242"></NameColumnWidth>
+      <ValueColumnWidth column_width="122"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="49" />
+   <wvobject type="divider" fp_name="divider285">
+      <obj_property name="label">tb_top2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/clk_100mhz" type="logic">
+      <obj_property name="ElementShortName">clk_100mhz</obj_property>
+      <obj_property name="ObjectShortName">clk_100mhz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/clk_200mhz" type="logic">
+      <obj_property name="ElementShortName">clk_200mhz</obj_property>
+      <obj_property name="ObjectShortName">clk_200mhz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/serial_ready" type="logic">
+      <obj_property name="ElementShortName">serial_ready</obj_property>
+      <obj_property name="ObjectShortName">serial_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/serial_data" type="logic">
+      <obj_property name="ElementShortName">serial_data</obj_property>
+      <obj_property name="ObjectShortName">serial_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/serial_valid" type="logic">
+      <obj_property name="ElementShortName">serial_valid</obj_property>
+      <obj_property name="ObjectShortName">serial_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/or_busy" type="logic">
+      <obj_property name="ElementShortName">or_busy</obj_property>
+      <obj_property name="ObjectShortName">or_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/pixel_counter" type="array">
+      <obj_property name="ElementShortName">pixel_counter[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_counter[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/received_byte" type="array">
+      <obj_property name="ElementShortName">received_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">received_byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/bit_counter" type="array">
+      <obj_property name="ElementShortName">bit_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_counter[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/file" type="array">
+      <obj_property name="ElementShortName">file[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/timeout" type="logic">
+      <obj_property name="ElementShortName">timeout</obj_property>
+      <obj_property name="ObjectShortName">timeout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider81">
+      <obj_property name="label">a-fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/async_fifo/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/async_fifo/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/async_fifo/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/async_fifo/almost_full" type="logic">
+      <obj_property name="ElementShortName">almost_full</obj_property>
+      <obj_property name="ObjectShortName">almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/async_fifo/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/async_fifo/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/async_fifo/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider146">
+      <obj_property name="label">p2s s-fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/u_s_fifo/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/u_s_fifo/data_count" type="array">
+      <obj_property name="ElementShortName">data_count[6:0]</obj_property>
+      <obj_property name="ObjectShortName">data_count[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/serial_data" type="logic">
+      <obj_property name="ElementShortName">serial_data</obj_property>
+      <obj_property name="ObjectShortName">serial_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/serial_valid" type="logic">
+      <obj_property name="ElementShortName">serial_valid</obj_property>
+      <obj_property name="ObjectShortName">serial_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/bit_counter" type="array">
+      <obj_property name="ElementShortName">bit_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_counter[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/state" type="array">
+      <obj_property name="ElementShortName">state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider106">
+      <obj_property name="label">sobel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/img_proc/sobel/line_buffer" type="array">
+      <obj_property name="ElementShortName">line_buffer[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line_buffer[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/img_proc/sobel/col_ptr" type="array">
+      <obj_property name="ElementShortName">col_ptr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">col_ptr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/img_proc/sobel/window" type="logic">
+      <obj_property name="ElementShortName">window</obj_property>
+      <obj_property name="ObjectShortName">window</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/img_proc/sobel/windowdata_valid" type="logic">
+      <obj_property name="ElementShortName">windowdata_valid</obj_property>
+      <obj_property name="ObjectShortName">windowdata_valid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider126">
+      <obj_property name="label">pool</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/img_proc/pool/pixel_out" type="array">
+      <obj_property name="ElementShortName">pixel_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1198">
+      <obj_property name="label">p2s s-fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/serial_data" type="logic">
+      <obj_property name="ElementShortName">serial_data</obj_property>
+      <obj_property name="ObjectShortName">serial_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/serial_valid" type="logic">
+      <obj_property name="ElementShortName">serial_valid</obj_property>
+      <obj_property name="ObjectShortName">serial_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/bit_counter" type="array">
+      <obj_property name="ElementShortName">bit_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_counter[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/p2s/state" type="array">
+      <obj_property name="ElementShortName">state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1199">
+      <obj_property name="label">imgproc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/img_proc/pooled_pixel" type="array">
+      <obj_property name="ElementShortName">pooled_pixel[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pooled_pixel[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top2/uut/img_proc/pooled_valid_internal" type="logic">
+      <obj_property name="ElementShortName">pooled_valid_internal</obj_property>
+      <obj_property name="ObjectShortName">pooled_valid_internal</obj_property>
+   </wvobject>
+</wave_config>
